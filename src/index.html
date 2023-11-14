@@ -18,6 +18,15 @@
         alt="Imagem do Pokemon"
       />
       <div>
+        <p id="types"></p>
+        <p id="abilities"></p>
+      </div>
+      <div>
+        <label for="search">Search: </label>
+        <input type="search" id="search" onkeypress="searchEnter(event)">
+        <button id="btnsearch" onclick="search()">></button>
+      </div>
+      <div>
         <button id="previous" onclick="previousPokemon()">Anterior</button>
         <button id="next" onclick="nextPokemon()">Proximo</button>
       </div>
